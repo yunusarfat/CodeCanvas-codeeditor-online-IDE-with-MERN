@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://codeide:321@cluster0.skl3cvq.mongodb.net/codeIDE?retryWrites=true&w=majority&appName=Cluster0",
+    "WRITE YOUR OWN MONGODB STRING",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
