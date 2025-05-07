@@ -1,6 +1,13 @@
 # CodeCanvas: Online Code IDE with MERN Stack
 
 CodeCanvas is an online code editor and development environment built with the MERN stack (MongoDB, Express, React, Node.js). It allows users to write, test, and execute code in a collaborative environment.
+![Image](https://github.com/user-attachments/assets/8e42d4e9-fb3f-4033-9823-8b9a38e79fe6)
+![Image](https://github.com/user-attachments/assets/5a7100b0-7447-445e-bad1-a99c5f9bd730)
+![Image](https://github.com/user-attachments/assets/30ceb4e6-a136-436e-b1ac-531e97692c96)
+![Image](https://github.com/user-attachments/assets/2b6526a1-f7a4-4bed-b312-29c1a9524c90)
+![Image](https://github.com/user-attachments/assets/388ae4c2-dc21-4d11-93ca-3b9ea150f099)
+![Image](https://github.com/user-attachments/assets/02c3588b-87d8-43aa-b746-153de2899a6b)
+![Image](https://github.com/user-attachments/assets/ca8bacae-5382-46f4-81f8-fee59c00c14e)
 
 ## Features
 
