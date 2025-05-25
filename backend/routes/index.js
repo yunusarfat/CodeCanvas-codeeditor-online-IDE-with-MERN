@@ -5,6 +5,16 @@ const projectModel = require("../models/projectModel");
 const bcrypt = require("bcrypt");
 const secret = "secret";
 const jwt = require("jsonwebtoken");
+var express = require("express");
+var router = express.Router();
+
+// ✅ Add this
+router.get("/", (req, res) => {
+  res.send("Welcome to the CodeCanvas backend!");
+});
+
+// ... your existing POST routes below
+
 router.post("/signup", async (req, res) => {
   const { username, name, email, password } = req.body;
   let emailCon = await userModel.findOne({
