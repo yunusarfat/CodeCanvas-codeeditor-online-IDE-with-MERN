@@ -5,8 +5,7 @@ const projectModel = require("../models/projectModel");
 const bcrypt = require("bcrypt");
 const secret = "secret";
 const jwt = require("jsonwebtoken");
-var express = require("express");
-var router = express.Router();
+
 
 // ✅ Add this
 router.get("/", (req, res) => {
