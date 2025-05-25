@@ -3,7 +3,7 @@ import EditorNavbar from "../components/EditorNavbar";
 import Editor from "@monaco-editor/react";
 import { MdOutlineLightMode } from "react-icons/md";
 import { FaExpandAlt } from "react-icons/fa";
-import "../app.css";
+
 import { api_base_url } from "../helper";
 import { useParams } from "react-router-dom";
 
