@@ -24,6 +24,14 @@ app.use(express.json());
 app.use(cors());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+// Serve frontend from 'dist' (Vite build output)
+app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+
+// For any unknown route, serve index.html (for React Router)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
+});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
